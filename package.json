@@ -1,0 +1,11 @@
+{
+  "name": "window-seat-travel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/app.js && node --check dist/scene.js && node --check dist/state.js && node --check dist/journeys.js"
+  }
+}
